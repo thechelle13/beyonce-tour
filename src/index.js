@@ -1,3 +1,5 @@
+import { bandsHTMLText } from './bands.js'
+
 /* 
   Responsibility:
 
@@ -13,3 +15,5 @@ document.getElementById("app").innerHTML = `
   <li>Generate a list of tour dates that includes city and opening band as HTML</li>
 </ol>
 `;
+
+console.log(bandsHTMLText())
