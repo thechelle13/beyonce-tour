@@ -1,4 +1,4 @@
-const database = {
+export const database = {
   tourDates: [
     {
       id: 1,

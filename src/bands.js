@@ -1,3 +1,6 @@
+import { database } from './database.js'
+
+
 /* 
   Responsbility:
 
@@ -15,3 +18,17 @@
     </ol>
   </article>
 */
+
+
+export const bandsHTMLText = () => {
+  let bandHTMLString = `<article class="acts">
+  <header>Opening Acts</header><ol>`
+  for (const opener of database.openers) {
+    bandHTMLString += `<li class="act">${opener.band}</li>`
+  }
+   bandHTMLString += ` </ol>
+   </article>`
+
+   return bandHTMLString
+
+}
