@@ -1,4 +1,6 @@
 import { bandsHTMLText } from './bands.js'
+import { citiesHTMLText } from './cities.js'
+import { tourDates } from "./tourDates.js"
 
 /* 
   Responsibility:
@@ -17,3 +19,5 @@ document.getElementById("app").innerHTML = `
 `;
 
 console.log(bandsHTMLText())
+console.log(tourDates())
+console.log(citiesHTMLText())
